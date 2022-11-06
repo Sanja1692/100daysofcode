@@ -64,4 +64,20 @@ i {
 
 .map div {
     padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.map div span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.map div span {
+    font-weight: bold;
+}
+
+.right {
+    justify-content: space-between;
 }
